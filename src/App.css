@@ -1,0 +1,230 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.company-es-container {
+  background-color: hsla(229, 55%, 26%, 0.753);
+
+}
+.job-list {
+  background-color:  hsl(93, 53%, 32%);
+  box-shadow: 0px 4px 6px 4px rgba(91, 164, 164, 1);
+  
+}
+
+.company-profile {
+  display: flex;
+  margin-left: 70px;
+}
+
+.profile {
+  display: flex;
+  margin-left: 70px;
+}
+.profile h3 {
+   margin-left: 90px;
+   margin-top: -40px;
+   cursor: pointer;
+}
+.profile h3:hover {
+  color: aqua;
+}
+.level-up {
+ display: flex;
+ margin-bottom: 45px;
+ margin-left: 160px;
+ position: relative;
+ 
+
+}
+.language-container {
+  display: flex;
+   margin: 20px;
+   justify-content: space-between;
+   height: 10px;
+   width: 20px;
+   margin-left: 80px;
+   
+}
+
+.img-container {
+  display: flex;
+}
+
+img {
+  width: 70px;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+#postAt {
+  margin-top: -50px;
+  
+}
+#contract {
+  margin-left: 20px;
+  margin-top: -50px;
+  
+}
+#location {
+  margin-left: 20px;
+  margin-top: -50px;
+  
+}
+#role {
+  margin-left: 350px;
+  margin-top: -55px;
+  color: aqua;
+  border: 1px solid grey;
+  padding: 10px;
+  font-size: 15px;
+  background-color: gray;
+  cursor: pointer;
+  height: 12px;
+}
+
+#role:hover {
+  background-color: lightblue;
+  color: white;
+}
+
+#levels {
+  margin-left: 30px;
+  margin-top: -55px;
+  color: aqua;
+  border: 1px solid grey;
+  font-size: 15px;
+  padding: 10px;
+  background-color:gray;
+  cursor: pointer;
+  height: 12px;
+}
+
+#levels:hover {
+  background-color: lightblue;
+  color: white;
+}
+
+#list-language {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-top: -55px;
+  color: aqua;
+  border: 1px solid grey;
+  font-size: 15px;
+  padding: 5px;
+  background-color: grey;
+  cursor: pointer;
+  height: 15px;
+}
+#list-language:hover {
+  background-color: lightblue;
+  color: white;
+}
+#list {
+  margin-left: 17px;
+}
+
+.header {
+  display: flex;
+  color: aqua;
+  
+}
+#header-frontend {
+   margin-left: 90px;
+   
+   cursor: pointer;
+   padding: 5px;
+   
+}
+#header-javascript {
+  margin-left: 20px;
+  border: 1px solid grey;
+  cursor: pointer;
+  padding: 5px;
+  background-color: grey;
+  width: 50px;
+}
+#header-css {
+  margin-left: 20px;
+  border: 1px solid grey;
+  cursor: pointer;
+  background-color: grey;
+  padding: 5px;
+}
+#clear {
+  margin-left: 800px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.tools {
+  margin-left: 30px;
+  border: 1px solid grey;
+  padding: 5px;
+  color: aqua;
+  background-color: grey;
+  margin-top: -55px;
+  height: 17px;
+}
+.tools:hover {
+  background-color: lightblue;
+  color: white;
+}
+.new {
+  margin-left: 30px;
+  width: 40px;
+  height: 12px;
+  border-radius: 20px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 13px;
+  text-align: center;
+  color: white;
+  background-color: aqua;
+  
+}
+.featured {
+  margin-left: 30px;
+  height: 12px;
+  border-radius: 20px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 13px;
+  text-align: center;
+  color: white;
+  background-color: black; 
+}
+
+@media only screen and (max-width: 375px) {
+   .job-list {
+    display: flex;
+    flex-direction: column;
+   }
+}
+@media only screen and (max-width: 375px) {
+   .joblisting-container {
+    display: flex;
+    flex-direction: column;
+   }
+}
+@media only screen and (max-width: 375px) {
+   .header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+   }
+}
+@media only screen and (max-width: 375px) {
+   .language-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    overflow: wrap;
+    justify-content: space-between;
+   }
+}
